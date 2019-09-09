@@ -1,8 +1,9 @@
 import React from 'react';
-import pagesData from '../pages';
+import pagesData from '../content/pages';
 import {Switch, Route, BrowserRouter} from "react-router-dom";
 import {ErrorHandler} from "./ErrorHandler";
 import {Component} from "./Component";
+import {NavBar} from "./NavBar/NavBar";
 
 export const Pages = () => {
     return (
@@ -21,6 +22,7 @@ export const Pages = () => {
 
 export const Page = ({body, title}) => {
     return <div>
-        {Object.keys(body).map((component, key) => <Component key={key} __component={component} {...body[component]}/>)}
+        <NavBar/>
+        {body.map((component, key) => <Component key={key} {...component}/>)}
     </div>
 };

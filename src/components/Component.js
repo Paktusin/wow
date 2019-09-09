@@ -5,7 +5,7 @@ const components = {
     hero: Hero
 };
 
-export const Component = ({__component, ...props}) => {
-    const Comp = components[__component];
+export const Component = ({component, ...props}) => {
+    const Comp = components[component];
     return <Comp {...props}/>;
 };

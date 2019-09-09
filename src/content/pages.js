@@ -1,5 +1,5 @@
-import index from './home.json'
+import home from './home.json'
 
 export default {
-    index,
+    home,
 }
