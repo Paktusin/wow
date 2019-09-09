@@ -1,0 +1,9 @@
+{
+  "logo": "https://worldofwarcraft.akamaized.net/static/components/Logo/Logo-wow.png",
+  "menu": [
+    {
+      "title": "Главная",
+      "url": "/"
+    }
+  ]
+}
