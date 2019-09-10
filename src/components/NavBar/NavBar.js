@@ -24,10 +24,10 @@ export const NavBar = () => {
         <div className={classes.Logo}>
           <img src={navBarData.logo} />
         </div>
-        <ul className="nav">
+        <ul className={classes.Menu}>
             {navBarData.menu.map(menuItem => (
-              <li className="nav-item">
-                <a className="nav-link" href={menuItem.url}>{menuItem.title}</a>
+              <li className={classes.MenuItem}>
+                <a href={menuItem.url}>{menuItem.title}</a>
               </li>
             ))}
           </ul>
