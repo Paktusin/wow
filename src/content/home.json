@@ -1,11 +1,11 @@
 {
-  "title": "WOW guild",
+  "title": "Guild name",
   "body": [
     {
       "component": "hero",
       "fullHeight": true,
-      "title": "WOW Guild",
-      "text": "Вновь загрохотали барабаны войны... Совершите путешествие в прошлое, прикоснитесь к былой эпохе Азерота и познакомьтесь с неустаревающими историями, определившими судьбу истерзанного войнами мира. Доступ к классической версии WoW открыт для всех обладателей действующей подписки на World of Warcraft — дополнительные покупки не требуются.",
+      "title": "Guild name",
+      "text": "test text test text test text test text test text test text test text test text test text",
       "image": "",
       "video": "",
       "buttons": [
@@ -18,8 +18,8 @@
     {
       "component": "hero",
       "fullHeight": true,
-      "title": "WOW Guild",
-      "text": "Вновь загрохотали барабаны войны... Совершите путешествие в прошлое, прикоснитесь к былой эпохе Азерота и познакомьтесь с неустаревающими историями, определившими судьбу истерзанного войнами мира. Доступ к классической версии WoW открыт для всех обладателей действующей подписки на World of Warcraft — дополнительные покупки не требуются.",
+      "title": "Guild name",
+      "text": "test text test text test text test text test text test text test text test text test text",
       "image": "",
       "video": "",
       "buttons": [
