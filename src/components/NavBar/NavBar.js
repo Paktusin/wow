@@ -24,13 +24,18 @@ export const NavBar = () => {
         <div className={classes.Logo}>
           <img src={navBarData.logo} />
         </div>
-        <ul className={classes.Menu}>
-            {navBarData.menu.map(menuItem => (
-              <li className={classes.MenuItem}>
-                <a href={menuItem.url}>{menuItem.title}</a>
-              </li>
-            ))}
-          </ul>
+        <nav className={classes.Menu}>
+          {navBarData.menu.map((menuItem, key) => (
+            <a
+              key={key}
+              className={classes.MenuItem}
+              href={menuItem.url}
+              data-text={menuItem.title}
+            >
+              <span>{menuItem.title}</span>
+            </a>
+          ))}
+        </nav>
       </div>
     </div>
   );

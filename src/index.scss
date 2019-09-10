@@ -1,14 +1,27 @@
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/mixins";
-@import "~bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/variables";
+
+@font-face {
+  font-family: "Demi";
+  font-weight: 400;
+  src: url(./fonts/futurademi.woff2);
+}
 
 $container-max-widths: (
-        sm: 1280px,
-        md: 1280px,
-        lg: 1280px,
-        xl: 1280px
+  sm: 1280px,
+  md: 1280px,
+  lg: 1280px,
+  xl: 1280px
 );
 
-@import "~bootstrap/scss/grid";
-@import "~bootstrap/scss/utilities";
-@import "~bootstrap/scss/reboot";
+$headings-font-family: "Demi";
+
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+
+body {
+  background-color: #170e09;
+}
