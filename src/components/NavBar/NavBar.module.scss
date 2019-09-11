@@ -1,8 +1,14 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+$navTransition: 0.3s all 0s cubic-bezier(0.23, 1, 0.32, 1);
+
 .NavBar {
   position: fixed;
   z-index: 10;
   top: 40px;
-  transition: 0.3s all 0s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: $navTransition;
   width: 100%;
   height: 90px;
   left: 0;
@@ -17,11 +23,18 @@
       width: 100vw;
     }
     .Logo {
-      display: none;
+      position: absolute;
+      height: 100%;
+      opacity: 0
     }
   }
 
   > div {
+    background-image: url(../../img/sitenav-bar-bg.jpg);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(68, 47, 38, 0.5);
+    transition: $navTransition;
     display: flex;
     width: 95vw;
     max-width: 1460px;
@@ -32,10 +45,21 @@
 }
 
 .Logo {
-  width: 330px;
-  > img {
+  opacity: 1;
+  transition: $navTransition;
+  width: 293px;
+  position: relative;
+  img {
+    transition: $navTransition;
     margin-top: -11px;
     width: 100%;
+  }
+
+  &:hover {
+    filter: brightness(122%);
+  }
+
+  @include media-breakpoint-between(md, lg) {
   }
 }
 
@@ -74,7 +98,7 @@
       #fff 51%,
       #fff 100%
     );
-    transition: 0.25s all 0s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: $navTransition;
 
     &:after {
       background-image: 0 0;

@@ -16,14 +16,21 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", scrollPage);
   }, []);
 
-  console.log(scrolled);
-
   return (
-    <div className={clsx(classes.NavBar, { [classes.scrolled]: scrolled })}>
+    <div
+      className={clsx(
+        classes.NavBar,
+        { [classes.scrolled]: scrolled },
+        "d-none",
+        "d-lg-flex"
+      )}
+    >
       <div>
-        <div className={classes.Logo}>
-          <img src={navBarData.logo} />
-        </div>
+        <a className={classes.Logo} href="/">
+          <div>
+            <img src={navBarData.logo} alt="logo" />
+          </div>
+        </a>
         <nav className={classes.Menu}>
           {navBarData.menu.map((menuItem, key) => (
             <a
