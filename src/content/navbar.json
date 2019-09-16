@@ -2,15 +2,15 @@
   "logo": "https://worldofwarcraft.akamaized.net/static/components/Logo/Logo-wow.png",
   "menu": [
     {
-      "title": "Главная",
+      "title": "NavLink",
       "url": "/#"
     },
     {
-      "title": "Сообщество",
+      "title": "NavLink",
       "url": "/#community"
     },
     {
-      "title": "Гильдия",
+      "title": "NavLink",
       "url": "/#guild"
     }
   ]

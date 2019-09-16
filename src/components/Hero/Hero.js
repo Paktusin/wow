@@ -22,8 +22,8 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video }) => {
             src={video}
             loop="loop"
             muted="muted"
-            autoplay="autoplay"
-            playsinline="playsinline"
+            autoPlay="autoplay"
+            playsInline="playsinline"
           ></video>
         </div>
       )}
@@ -31,8 +31,8 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video }) => {
         <h1 className={classes.Title}>{title}</h1>
         <p className={classes.Text}>{text}</p>
         <div className={classes.Buttons}>
-          {buttons.map(button => (
-            <Button>{button.text}</Button>
+          {buttons.map((button, key) => (
+            <Button key={key}>{button.text}</Button>
           ))}
         </div>
       </div>

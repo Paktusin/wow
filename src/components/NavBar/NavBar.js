@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./NavBar.module.scss";
 import clsx from "clsx";
 import navBarData from "../../content/navbar.json";
+import { MobileNav } from "../MobileNav/MobileNav";
 
 export const NavBar = () => {
   const scrollPage = () => {
@@ -17,15 +18,9 @@ export const NavBar = () => {
   }, []);
 
   return (
-    <div
-      className={clsx(
-        classes.NavBar,
-        { [classes.scrolled]: scrolled },
-        "d-none",
-        "d-lg-flex"
-      )}
-    >
+    <div className={clsx(classes.NavBar, { [classes.scrolled]: scrolled })}>
       <div>
+        <MobileNav />
         <a className={classes.Logo} href="/">
           <div>
             <img src={navBarData.logo} alt="logo" />
