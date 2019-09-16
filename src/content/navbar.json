@@ -3,15 +3,15 @@
   "menu": [
     {
       "title": "NavLink",
-      "url": "/#"
+      "url": "#"
     },
     {
       "title": "Guild",
-      "url": "/#guild"
+      "url": "#guild"
     },
     {
       "title": "NavLink",
-      "url": "/#guild"
+      "url": "#guild"
     }
   ]
 }
