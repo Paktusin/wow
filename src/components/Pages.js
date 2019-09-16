@@ -13,7 +13,6 @@ export const Pages = () => {
                     {Object.keys(pagesData).map((path, key) => (
                         <Route key={key} exact path={'/' + path.replace('home', '')} render={(props) => <Page {...props} {...pagesData[path]} />} />
                     ))}
-                    <Redirect to='/' />
                 </Switch>
             </BrowserRouter>
         </ErrorHandler>
