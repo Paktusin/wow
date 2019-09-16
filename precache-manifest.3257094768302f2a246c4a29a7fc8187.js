@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afccb774f57a72172d83fb2585508241",
+    "revision": "bd5bfaeb6e93985a366a4b36022a5c8b",
     "url": "/wow/index.html"
   },
   {
-    "revision": "ed3e17f6e011e8b6f38d",
+    "revision": "310a54a7ede865b54b6f",
     "url": "/wow/static/css/main.db7cc67d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wow/static/js/2.8fdf2d21.chunk.js"
   },
   {
-    "revision": "ed3e17f6e011e8b6f38d",
-    "url": "/wow/static/js/main.33d5da29.chunk.js"
+    "revision": "310a54a7ede865b54b6f",
+    "url": "/wow/static/js/main.c5622d53.chunk.js"
   },
   {
     "revision": "63b087bb02b3687649c5",
