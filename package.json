@@ -12,8 +12,8 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "serve": "http-server ./build --port 8080",
+    "deploy": "PUBLIC_URL=/wow yarn build && gh-pages -d build",
+    "serve": "yarn build && http-server ./build --port 8080",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
