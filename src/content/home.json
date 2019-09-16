@@ -6,7 +6,7 @@
       "fullHeight": true,
       "title": "Some name",
       "text": "test text test text test text test text test text test text test text test text test text",
-      "image": "2https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCI1B9ISTFM91540428016970.jpg",
+      "image": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCI1B9ISTFM91540428016970.jpg",
       "buttons": [
         {
           "title": "Просмотр",
@@ -15,12 +15,13 @@
       ]
     },
     {
+      "id":"guild",
       "component": "hero",
       "fullHeight": true,
       "title": "Some name",
       "text": "test text test text test text test text test text test text test text test text test text",
-      "image": "2https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCI1B9ISTFM91540428016970.jpg",
-      "video": "2https://bnetcmsus-a.akamaihd.net/cms/template_resource/L6E8QFPGTYUS1537981155888.mp4",
+      "image": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCI1B9ISTFM91540428016970.jpg",
+      "video": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L6E8QFPGTYUS1537981155888.mp4",
       "buttons": [
         {
           "title": "Просмотр",

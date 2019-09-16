@@ -14,7 +14,7 @@ export const MobileNav = () => {
 
     }
 
-    const [open, setOpen] = React.useState(true);
+    const [open, setOpen] = React.useState(false);
     const left = open ? 0 : -320;
 
     return (
@@ -23,7 +23,7 @@ export const MobileNav = () => {
             <div className={classes.MobileMenu} style={{ left }}>
                 <button className={classes.CloseBtn} onClick={e => clickHandler(false)}></button>
                 <div>
-                    <a className={classes.Logo} href="/">
+                    <a className={classes.Logo} href="/" onClick={e => clickHandler(false)}>
                         <div>
                             <img src={navBarData.logo} alt="logo" />
                         </div>
@@ -31,6 +31,7 @@ export const MobileNav = () => {
                     <nav className={classes.Menu}>
                         {navBarData.menu.map((menuItem, key) => (
                             <a
+                                onClick={e => clickHandler(false)}
                                 key={key}
                                 className={classes.MenuItem}
                                 href={menuItem.url}

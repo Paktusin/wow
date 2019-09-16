@@ -3,7 +3,7 @@ import classes from "./Hero.module.scss";
 import clsx from "clsx";
 import { Button } from "../Button/Button";
 
-export const Hero = ({ fullHeight, text, title, buttons, image, video }) => {
+export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => {
   const style = {
     height: fullHeight ? "100vh" : "auto",
     backgroundImage: `url(${image})`
@@ -11,6 +11,7 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video }) => {
 
   return (
     <div
+      id={id}
       className={clsx(classes.Hero, "container-fluid", {
         [classes.fullHeight]: fullHeight
       })}
