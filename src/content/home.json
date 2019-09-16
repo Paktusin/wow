@@ -9,13 +9,18 @@
       "image": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCI1B9ISTFM91540428016970.jpg",
       "buttons": [
         {
-          "title": "Просмотр",
-          "url": "https://discordapp.com"
+          "primary": true,
+          "text": "Просмотр",
+          "href": "https://discordapp.com"
+        },
+        {
+          "text": "Подробнее",
+          "href": "https://discordapp.com"
         }
       ]
     },
     {
-      "id":"guild",
+      "id": "guild",
       "component": "hero",
       "fullHeight": true,
       "title": "Some name",
@@ -24,8 +29,8 @@
       "video": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L6E8QFPGTYUS1537981155888.mp4",
       "buttons": [
         {
-          "title": "Просмотр",
-          "url": "https://discordapp.com"
+          "text": "Просмотр",
+          "href": "https://discordapp.com"
         }
       ]
     }

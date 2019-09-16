@@ -33,7 +33,7 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
         <p className={classes.Text}>{text}</p>
         <div className={classes.Buttons}>
           {buttons.map((button, key) => (
-            <Button key={key}>{button.text}</Button>
+            <Button key={key} {...button}>{button.text}</Button>
           ))}
         </div>
       </div>
