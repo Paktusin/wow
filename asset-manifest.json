@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.883c3902.chunk.css",
+    "main.js": "/static/js/main.edf438c2.chunk.js",
+    "main.js.map": "/static/js/main.edf438c2.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.b5edd55f.js",
+    "runtime~main.js.map": "/static/js/runtime~main.b5edd55f.js.map",
+    "static/js/2.76071c0d.chunk.js": "/static/js/2.76071c0d.chunk.js",
+    "static/js/2.76071c0d.chunk.js.map": "/static/js/2.76071c0d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.89ebdeb8d4cc16933180a1a6f08f467f.js": "/precache-manifest.89ebdeb8d4cc16933180a1a6f08f467f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.883c3902.chunk.css.map": "/static/css/main.883c3902.chunk.css.map",
+    "static/media/index.scss": "/static/media/futurademi.dfdf3b6e.woff2",
+    "static/media/NavBar.module.scss": "/static/media/sitenav-bar-bg.1fce1b9a.jpg"
+  }
+}
