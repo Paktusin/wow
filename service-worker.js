@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wow/precache-manifest.74ce17487c0347bf14c09d5755cf7017.js"
+  "/wow/precache-manifest.2222d3cd2aad757502dae711c64cf101.js"
 );
 
 self.addEventListener('message', (event) => {
