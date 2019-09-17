@@ -8,6 +8,12 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
     height: fullHeight ? "100vh" : "auto",
     backgroundImage: `url(${image})`
   };
+  const videoRef = React.useRef();
+
+  React.useEffect(() => {
+    const videoel = videoRef.current;
+    if (videoel) videoel.play();
+  }, [])
 
   return (
     <div
@@ -20,11 +26,12 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
       {video && (
         <div className={classes.Video}>
           <video
+            ref={videoRef}
             src={video}
-            loop="loop"
-            muted="muted"
-            autoPlay="autoplay"
-            playsInline="playsinline"
+            loop
+            muted
+            autoplay
+            playsinlineloca
           ></video>
         </div>
       )}
