@@ -1,4 +1,11 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
 .Hero {
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,6 +45,10 @@
   background-color: #000;
   overflow: hidden;
 
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+
   video {
     position: absolute;
     top: 50%;
@@ -54,5 +65,19 @@
   a,
   buttons {
     margin-right: 1rem;
+    margin-bottom: 1rem;
   }
+}
+
+.FadeOverlay {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }

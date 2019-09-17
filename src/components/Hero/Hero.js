@@ -28,6 +28,7 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
           ></video>
         </div>
       )}
+      <div className={classes.FadeOverlay}></div>
       <div className={"container"}>
         <h1 className={classes.Title}>{title}</h1>
         <p className={classes.Text}>{text}</p>
