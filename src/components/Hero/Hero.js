@@ -19,7 +19,7 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
     >
       {video && (
         <div className={classes.Video}>
-          <video src={video} loop muted autoplay playsinline></video>
+          <video src={video} loop="loop" muted="muted" autoplay="autoplay" playsinline="playsinline"></video>
         </div>
       )}
       <div className={classes.FadeOverlay}></div>
