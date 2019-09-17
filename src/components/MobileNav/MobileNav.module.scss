@@ -58,6 +58,11 @@
   span {
     font-size: 14px;
   }
+
+  &::before,
+  &::after {
+    display: none;
+  }
 }
 
 .Overlay {

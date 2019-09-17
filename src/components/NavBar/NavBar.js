@@ -3,7 +3,6 @@ import classes from "./NavBar.module.scss";
 import clsx from "clsx";
 import navBarData from "../../content/navbar.json";
 import { MobileNav } from "../MobileNav/MobileNav";
-import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
   const scrollPage = () => {
@@ -29,13 +28,13 @@ export const NavBar = () => {
         </a>
         <nav className={classes.Menu}>
           {navBarData.menu.map((menuItem, key) => (
-            <Link to={menuItem.url}
+            <a href={menuItem.url}
               key={key}
               className={classes.MenuItem}
               data-text={menuItem.title}
             >
               <span>{menuItem.title}</span>
-            </Link>
+            </a>
           ))}
         </nav>
       </div>

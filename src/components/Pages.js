@@ -4,6 +4,7 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 import { ErrorHandler } from "./ErrorHandler";
 import { Component } from "./Component";
 import { NavBar } from "./NavBar/NavBar";
+import { Footer } from './Footer/Footer';
 
 export const Pages = () => {
     return (
@@ -23,5 +24,6 @@ export const Page = ({ body, title }) => {
     return <div>
         <NavBar />
         {body.map((component, key) => <Component key={key} {...component} />)}
+        <Footer />
     </div>
 };
