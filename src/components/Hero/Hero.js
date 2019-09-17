@@ -8,12 +8,6 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
     height: fullHeight ? "100vh" : "auto",
     backgroundImage: `url(${image})`
   };
-  const videoRef = React.useRef();
-
-  React.useEffect(() => {
-    const videoEl = videoRef.current;
-    if (videoEl) videoEl.querySelector('video').play();
-  }, [])
 
   return (
     <div
@@ -24,14 +18,8 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
       style={style}
     >
       {video && (
-        <div className={classes.Video} ref={videoRef}>
-          <video
-            src={video}
-            loop="loop"
-            muted="muted"
-            autoplay="autoplay"
-            playsinline="playsinline"
-          ></video>
+        <div className={classes.Video}>
+          <video src={video} loop muted autoplay playsinline></video>
         </div>
       )}
       <div className={classes.FadeOverlay}></div>
