@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wow/static/css/main.2fbb834a.chunk.css",
-    "main.js": "/wow/static/js/main.eabe6674.chunk.js",
-    "main.js.map": "/wow/static/js/main.eabe6674.chunk.js.map",
+    "main.js": "/wow/static/js/main.36c8afc6.chunk.js",
+    "main.js.map": "/wow/static/js/main.36c8afc6.chunk.js.map",
     "runtime~main.js": "/wow/static/js/runtime~main.224a987d.js",
     "runtime~main.js.map": "/wow/static/js/runtime~main.224a987d.js.map",
     "static/js/2.df908ae8.chunk.js": "/wow/static/js/2.df908ae8.chunk.js",
     "static/js/2.df908ae8.chunk.js.map": "/wow/static/js/2.df908ae8.chunk.js.map",
     "index.html": "/wow/index.html",
-    "precache-manifest.966b32f65ea307c113b47a633e8c6923.js": "/wow/precache-manifest.966b32f65ea307c113b47a633e8c6923.js",
+    "precache-manifest.94bf9dcfef015cf5b71aa94e80b557f3.js": "/wow/precache-manifest.94bf9dcfef015cf5b71aa94e80b557f3.js",
     "service-worker.js": "/wow/service-worker.js",
     "static/css/main.2fbb834a.chunk.css.map": "/wow/static/css/main.2fbb834a.chunk.css.map",
     "static/media/index.scss": "/wow/static/media/futurademi.dfdf3b6e.woff2",
