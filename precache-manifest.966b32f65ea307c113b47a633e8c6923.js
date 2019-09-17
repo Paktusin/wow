@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d38dcdc2a3cc28b9c9590576633899e",
+    "revision": "1a9d6f1f63f9f9afb6fd11f39b5ca42a",
     "url": "/wow/index.html"
   },
   {
