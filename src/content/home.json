@@ -5,32 +5,46 @@
       "component": "hero",
       "fullHeight": true,
       "title": "Гильдия Черная Мамба",
-      "text": "Добро подаловать в лучшую гильдию RU WOW сообщества. В ступайте в нашу гильдию и окунитесь с головой в мир приключений World Of Warcraft. Общение с профессиональными игроками, советы, гайды, совместные эвенты. Мы уже 15 лет в Warcraft.",
+      "text": "Добро подаловать в лучшую гильдию RU WOW сообщества. В ступайте в нашу гильдию и окунитесь с головой в мир приключений World Of Warcraft. Общение с профессиональными игроками, советы, гайды, совместные эвенты. Мы уже 15 лет в Warcraft. Оставьте заявку на вступление в нашем Discort канале.",
       "image": "https://az571148.vo.msecnd.net/propressroom/Content/Artwork/Eva/BlizzardLive/artwork/2018/01/30073015-d00d0922-eb34-4bc0-b894-ab04b5fb7043/World_of_Warcraft_Battle_for_Azeroth_The_Alliance.jpg",
       "video": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L6E8QFPGTYUS1537981155888.mp4",
       "buttons": [
         {
           "primary": true,
-          "text": "Наш Discort",
+          "text": "Хочу вступить!",
           "href": "https://discordapp.com"
         },
         {
           "text": "Подробнее",
-          "href": "https://discordapp.com"
+          "href": "#events"
         }
       ]
     },
     {
-      "id": "guild",
+      "id": "events",
       "component": "hero",
       "fullHeight": true,
-      "title": "Some name",
-      "text": "test text test text test text test text test text test text test text test text test text",
+      "title": "События",
+      "text": "Присоеденяйтесь к нам в походах в подземелия. Героики, нормалы, ключи. Совместное закрытие локалок. Набеги на орду. Разнообразные конкурсы внутри Discort канала.",
       "image": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCI1B9ISTFM91540428016970.jpg",
       "buttons": [
         {
-          "text": "Просмотр",
-          "href": "https://discordapp.com"
+          "text": "Подробнее",
+          "href": "#area"
+        }
+      ]
+    },
+    {
+      "id": "area",
+      "component": "hero",
+      "fullHeight": true,
+      "title": "Атмосфера",
+      "text": " Уютное ламповое общение с живыми людьми во время кача. Разные шутейки. Аптайм 8-12 (MSK). Требования к рекрутам 21+",
+      "image": "https://wallpapercart.com/wp-content/uploads/2019/09/world-of-warcraft-death-knight-wallpapers.jpg",
+      "buttons": [
+        {
+          "text": "Как к нам попасть?",
+          "href": "#"
         }
       ]
     }

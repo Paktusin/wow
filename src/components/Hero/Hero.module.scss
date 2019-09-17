@@ -14,6 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  padding: 5rem 0;
 
   :global(.container) {
     z-index: 0;
@@ -28,7 +29,6 @@
 
 .Text {
   color: #ebdec2;
-
   .fullHeight & {
     font-size: 1.3rem;
     line-height: 1.5rem;

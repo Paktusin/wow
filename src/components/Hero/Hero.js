@@ -30,12 +30,16 @@ export const Hero = ({ fullHeight, text, title, buttons, image, video, id }) => 
       )}
       <div className={classes.FadeOverlay}></div>
       <div className={"container"}>
-        <h1 className={classes.Title}>{title}</h1>
-        <p className={classes.Text}>{text}</p>
-        <div className={classes.Buttons}>
-          {buttons.map((button, key) => (
-            <Button key={key} {...button}>{button.text}</Button>
-          ))}
+        <div className={"row"}>
+          <div className={"col-12 col-lg-6 col-md-8"}>
+            <h1 className={classes.Title}>{title}</h1>
+            <p className={classes.Text}>{text}</p>
+            <div className={classes.Buttons}>
+              {buttons.map((button, key) => (
+                <Button key={key} {...button}>{button.text}</Button>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

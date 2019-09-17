@@ -2,16 +2,16 @@
   "logo": "https://worldofwarcraft.akamaized.net/static/components/Logo/Logo-wow.png",
   "menu": [
     {
-      "title": "NavLink",
+      "title": "О нас",
       "url": "#"
     },
     {
-      "title": "Guild",
-      "url": "#guild"
+      "title": "События",
+      "url": "#events"
     },
     {
-      "title": "NavLink",
-      "url": "#guild"
+      "title": "Атмосфера",
+      "url": "#area"
     }
   ]
 }
