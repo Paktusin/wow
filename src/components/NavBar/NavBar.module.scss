@@ -28,6 +28,10 @@ $navTransition: 0.3s all 0s cubic-bezier(0.23, 1, 0.32, 1);
       width: auto;
 
       img {
+        position: absolute;
+        @include media-breakpoint-down(sm) {
+          position: relative;
+        }
         height: 48px;
         width: auto;
         margin-top: 0;
@@ -55,6 +59,7 @@ $navTransition: 0.3s all 0s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
   > div {
+    height: 100%;
     background-image: url(../../img/sitenav-bar-bg.jpg);
     background-color: #211510;
 
@@ -77,6 +82,7 @@ $navTransition: 0.3s all 0s cubic-bezier(0.23, 1, 0.32, 1);
   opacity: 1;
   width: 293px;
   position: relative;
+
   img {
     margin-top: -11px;
     width: 100%;
